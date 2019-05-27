@@ -129,10 +129,9 @@ class SabStatus:
         x = 0
          
         # Load nice silkscreen font
-        font = ImageFont.truetype('/home/pi/sab/slkscr.ttf', 8)
+        font = ImageFont.truetype('/PATH/TO/FONT/slkscr.ttf', 8)
  
-        go=True
-        while go:
+        while True:
             new_x = x + random.randint(0,4)
             new_top = top + random.randint(0,4)
 
